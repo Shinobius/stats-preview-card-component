@@ -1,0 +1,117 @@
+/////////////////////////////
+/////// BASIC STYLES
+/////////////////////////////
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #0a0c1c;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/////////////////////////////
+/////// CARD
+/////////////////////////////
+
+.card {
+  background-color: #1b1937;
+  color: #fff;
+  width: 32.7rem;
+  margin: 8.8rem auto 0;
+  overflow: hidden;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.card__image-container {
+  height: 24rem;
+  background-color: #ab5cdb;
+  overflow: hidden;
+}
+
+.card__image {
+  mix-blend-mode: multiply;
+  opacity: 0.75;
+  height: auto;
+  width: 100%;
+}
+
+.card__content {
+  padding: 4rem 3.1rem 3.2rem;
+}
+
+.card__heading {
+  font-size: 2.8rem;
+  line-height: 3.2rem;
+  font-size: 700;
+  margin-bottom: 1.6rem;
+}
+
+.card__highlighted-text {
+  color: #ab5cdb;
+}
+
+.card__description {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  opacity: 0.75;
+  margin-bottom: 4rem;
+}
+
+/////////////////////////////
+/////// STATISCTICS
+/////////////////////////////
+
+.stats {
+  list-style-type: none;
+}
+
+.stats__stat:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+.stats__number {
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin-bottom: 0.2rem;
+}
+
+.stats__description {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
+  opacity: 0.6;
+  text-transform: uppercase;
+}
+
+/////////////////////////////
+/////// ATTRIBUTION
+/////////////////////////////
+
+.attribution {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: auto;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
