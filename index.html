@@ -12,7 +12,10 @@
   <body>
     <main class="card">
       <div class="card__image-container">
-        <img src="images/image-header-mobile.jpg" alt="People in the office" width="327" height="240" class="card__image" />
+        <picture>
+          <source media="(min-width: 90em)" srcset="images\image-header-desktop.jpg" />
+          <img src="images/image-header-mobile.jpg" alt="People in the office" width="327" height="240" class="card__image" />
+        </picture>
         <div class="card__image-background">&nbsp;</div>
       </div>
       <div class="card__content">
